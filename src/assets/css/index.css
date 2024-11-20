@@ -1,0 +1,40 @@
+.header{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-weight: bold;
+}
+.main{
+    width: 100%;
+}
+.heading{
+    text-align: center;
+    padding: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.row{
+    max-width: 1300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+.column{
+    flex-basis: 30%;
+    margin: 1.5%;
+    box-shadow: 0px 0px 5px 2px gray;
+}
+.image img{
+    width: 100%;
+}
+.column h2{
+    padding: 0px 15px;
+}
+.column p{
+    padding: 0px 15px;
+}
